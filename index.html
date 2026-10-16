@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#be1e2d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Canton Fair">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Canton Fair</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="back" class="icon-btn" hidden aria-label="Voltar">‹</button>
+    <h1 id="title">Canton Fair</h1>
+    <a href="#/backup" class="icon-btn" aria-label="Backup e exportação" title="Backup">⇅</a>
+  </header>
+  <main id="view"></main>
+  <a href="#/new" id="fab" class="fab" aria-label="Novo stand">＋</a>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

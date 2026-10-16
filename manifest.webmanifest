@@ -1,0 +1,17 @@
+{
+  "name": "Canton Fair — Caderno de Stands",
+  "short_name": "Canton Fair",
+  "description": "Registro offline de stands, contatos, fotos e condições comerciais na Canton Fair.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f4f1",
+  "theme_color": "#be1e2d",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
